@@ -93,11 +93,10 @@ const handleOnSubmit = async (e) => {
                 onChange={onChange}/>
             </div>
             <button type="submit" className="btn btn-primary mt-2"
-            disabled={ !contactInfo.name || !contactInfo.email }
-            value="submit" onClick={handleOnSubmit}>  Submit </button>
+            enabled={ !contactInfo.name || !contactInfo.email }
+            value="submit" onClick={handleOnSubmit}>Submit </button>
 
-<button type="submit" 
-                onClick={handleOnSubmit}>submit</button>
+
 
            
             
